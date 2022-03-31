@@ -15,6 +15,7 @@ const Checkout = () => {
           alt="banner"
         />
         <div>
+          <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your Shooping Basket</h2>
           {basket?.map((item) => (
             <CheckoutProduct
