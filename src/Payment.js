@@ -23,7 +23,6 @@ function Payment() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    console.log("AXIOS", axios);
     const getClientSecret = async () => {
       const response = await axios({
         method: "post",

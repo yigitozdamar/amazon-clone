@@ -33,11 +33,12 @@
   padding: 12px;
   border: 1px solid rgba(50, 50, 93, 0.1);
   max-height: 74px;
-  width: 100%;
+  width: 70%;
   background: white;
   box-sizing: border-box;
 }
 
+
 .payment__button{
-  font-size: large;
+  font-size: medium;
 }

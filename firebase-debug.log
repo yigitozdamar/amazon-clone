@@ -1,0 +1,44 @@
+[debug] [2022-04-03T21:17:23.972Z] ----------------------------------------------------------------------
+[debug] [2022-04-03T21:17:23.973Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-04-03T21:17:23.973Z] CLI Version:   10.5.0
+[debug] [2022-04-03T21:17:23.973Z] Platform:      darwin
+[debug] [2022-04-03T21:17:23.973Z] Node Version:  v16.14.2
+[debug] [2022-04-03T21:17:23.976Z] Time:          Mon Apr 04 2022 00:17:23 GMT+0300 (GMT+03:00)
+[debug] [2022-04-03T21:17:23.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-03T21:17:24.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-03T21:17:24.003Z] > authorizing via signed-in user (pilotygt87@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/yigitozdamar/Desktop/React Projects/amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-03T21:17:37.899Z] Using project from CLI flag: clone-9e34a
+[debug] [2022-04-03T21:17:37.902Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-9e34a [none]
+[debug] [2022-04-03T21:17:38.298Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-9e34a 200
+[debug] [2022-04-03T21:17:38.299Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-9e34a {"projectId":"clone-9e34a","projectNumber":"1072668771998","displayName":"amazon-clone","name":"projects/clone-9e34a","resources":{"hostingSite":"clone-9e34a","storageBucket":"clone-9e34a.appspot.com","locationId":"europe-west"},"state":"ACTIVE"}
+[info] i  Using project clone-9e34a (amazon-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
